@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "chunkfinder",
+  "version": "${version}",
+  "name": "Chunk Finder",
+  "description": "A client-side visual scanner for visible amethyst geodes and selected structure blocks, with sensitivity and scan-radius settings.",
+  "authors": ["Chunk Finder"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.chunkfinder.ChunkFinderClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
